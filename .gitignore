@@ -1,0 +1,29 @@
+# Flutter / IDE outputs
+.idea/
+**/.idea/
+*.iml
+frontend/farm_mind/.dart_tool/
+frontend/farm_mind/build/
+frontend/farm_mind/.flutter-plugins*
+frontend/farm_mind/android/local.properties
+
+# Local package/build caches
+.pub-cache/
+.maven/
+**/target/
+**/build/
+
+# Python runtime and bytecode
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+
+# Runtime data and secrets
+backend/**/uploads/
+.env
+.env.*
+!.env.example
+ai-service/model/*.keras
+ai-service/model/*.h5
+ai-service/model/*.tflite
